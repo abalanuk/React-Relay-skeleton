@@ -1,9 +1,7 @@
 {
-  "name": "Skeleton-test-app",
-  "version": "0.1.0",
-  "description": "Barista test app",
-  "license": "UNLICENSED",
-  "private": true,
+  "name": "React-Relay-Webpack2-skeleton",
+  "version": "0.0.1",
+  "description": "React-Relay-Webpack2-skeleton for the app connected to GraphQL",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cross-env WEBPACK_CONFIG=browser_prod,server webpack --colors",

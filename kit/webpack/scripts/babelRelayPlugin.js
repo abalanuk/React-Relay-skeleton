@@ -2,7 +2,7 @@ import getBabelRelayPlugin from 'babel-relay-plugin'
 import { introspectionQuery } from 'graphql/utilities'
 import request from 'sync-request'
 
-const url = 'http://localhost:3000/graphql'//192.168.56.1
+const url = 'http://localhost:3000/graphql'
 
 const response = request('POST', url, {
   json: {

@@ -51,7 +51,7 @@ export default new WebpackConfig().extend({
     port: PORT,
 
     // for requests to GraphQL endpoint
-    proxy: {'/graphql': `http://192.168.56.1:3000`},
+    proxy: {'/graphql': `http://localhost:3000`},
 
     // link HTTP -> app/public, so static assets are being pulled from
     // our source directory and not the `dist/public` we'd normally use in
